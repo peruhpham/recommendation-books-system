@@ -2,5 +2,3 @@ cache/
 cache/hub/models--sentence-transformers--paraphrase-multilingual-mpnet-base-v2/snapshots/*/model.safetensors
 venv/
 __pycache__/
-*.csv
-*.gradio
