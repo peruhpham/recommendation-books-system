@@ -1,0 +1,7 @@
+gradio
+pandas
+numpy
+langchain
+langchain_huggingface
+deep-translator
+langid
