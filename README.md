@@ -87,6 +87,9 @@ Truy cập giao diện tại [http://localhost:7860](http://localhost:7860).
 
 * **Thêm sách mới**: Nhập thông tin ISBN, tiêu đề, tác giả, năm xuất bản, v.v.
 * **Xóa sách**: Chọn hàng cần xóa dựa trên chỉ số.
+* **Tìm kiếm sách**: Chọn trường dữ liệu: title, author, v.v ... để tìm kiếm linh hoạt với bất kì đầu vào.
+* **Đo thời gian**: Quan sát thời gian thực hiện của một số tiến trình, các hàm, các model, v.v... .
+* **File chương trình đo thời gian**: run python benchmark.py
 
 ### 5.3. Thống kê
 

@@ -100,3 +100,25 @@ class BookLinkedList:
         return count
 
     # có thể bổ sung các hàm update, delete như trước
+
+    def search(self, field, value):
+        results = []
+        cur = self.head
+        idx = 1
+        while cur:
+            node_value = getattr(cur, field, "")
+            if value.strip().lower() in str(node_value).strip().lower():
+                results.append([
+                    idx,
+                    cur.isbn13,
+                    cur.isbn10,
+                    cur.title,
+                    cur.authors,
+                    cur.categories,
+                    cur.published_year,
+                    cur.average_rating
+                ])
+            cur = cur.next
+            idx += 1
+        return results
+
