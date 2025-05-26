@@ -22,7 +22,7 @@ Dự án được xây dựng sử dụng thư viện [Gradio](https://gradio.ap
 ## 3. Cấu trúc thư mục
 
 ```plaintext
-Book-Recommender-LLM/
+recommendation-books-system/
 │
 ├── models/
 │   ├── book_node.py             # Định nghĩa cấu trúc dữ liệu sách
