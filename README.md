@@ -1,4 +1,4 @@
-# Hệ Thống Gợi Ý Sách (Book Recommender LLM)
+# Hệ Thống Gợi Ý Sách (Book Recommendation System)
 
 ## 1. Mô tả dự án
 
