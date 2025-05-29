@@ -13,7 +13,7 @@ class BookController:
         self.file_path = file_path
         self.books_ll = BookLinkedList()
         self.added_count = 0
-        self.deleted_count = 0
+        self.deleted_count = 0 
         self.load_books()
         self.embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         self.build_vector_db()

@@ -3,21 +3,21 @@ from controllers.book_controller import BookController
 
 
 # Cập nhật mô tả khi chọn trường
-def update_field_desc(field):
-    descs = {
-        "title": "**Tiêu đề sách:** Tìm kiếm theo tên sách.",
-        "authors": "**Tác giả:** Tìm kiếm theo tên tác giả.",
-        "categories": "**Thể loại:** Tìm kiếm theo thể loại sách.",
-        "isbn13": "**ISBN13:** Tìm kiếm theo mã ISBN13.",
-        "isbn10": "**ISBN10:** Tìm kiếm theo mã ISBN10.",
-        "published_year": "**Năm xuất bản:** Tìm kiếm theo năm xuất bản.",
-        "average_rating": "**Đánh giá trung bình:** Tìm kiếm theo điểm đánh giá.",
-        "num_pages": "**Số trang:** Tìm kiếm theo số trang.",
-        "ratings_count": "**Số lượt đánh giá:** Tìm kiếm theo số lượt đánh giá.",
-        "title_and_subtitle": "**Tiêu đề & phụ đề:** Tìm kiếm theo tiêu đề và phụ đề.",
-        "tagged_description": "**Mô tả đã gắn thẻ:** Tìm kiếm theo mô tả đã gắn thẻ.",
-    }
-    return descs.get(field, "")
+# def update_field_desc(field):
+#     descs = {
+#         "title": "**Tiêu đề sách:** Tìm kiếm theo tên sách.",
+#         "authors": "**Tác giả:** Tìm kiếm theo tên tác giả.",
+#         "categories": "**Thể loại:** Tìm kiếm theo thể loại sách.",
+#         "isbn13": "**ISBN13:** Tìm kiếm theo mã ISBN13.",
+#         "isbn10": "**ISBN10:** Tìm kiếm theo mã ISBN10.",
+#         "published_year": "**Năm xuất bản:** Tìm kiếm theo năm xuất bản.",
+#         "average_rating": "**Đánh giá trung bình:** Tìm kiếm theo điểm đánh giá.",
+#         "num_pages": "**Số trang:** Tìm kiếm theo số trang.",
+#         "ratings_count": "**Số lượt đánh giá:** Tìm kiếm theo số lượt đánh giá.",
+#         "title_and_subtitle": "**Tiêu đề & phụ đề:** Tìm kiếm theo tiêu đề và phụ đề.",
+#         "tagged_description": "**Mô tả đã gắn thẻ:** Tìm kiếm theo mô tả đã gắn thẻ.",
+#     }
+#     return descs.get(field, "")
 
 def create_dashboard(controller):
     with gr.Blocks(theme=gr.themes.Glass(), fill_height=True) as dashboard:
