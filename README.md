@@ -66,6 +66,19 @@ venv\Scripts\activate        # Đối với Windows
 pip install -r requirements.txt
 ```
 
+### Chú ý: Nếu bạn gặp phải lỗi không cài được thư viện "chromadb" 
+* hãy bình tĩnh vì thư viện mã nguồn mỡ này đang gặp phải BUG nhỏ - nguyên nhân khiến bạn không cài được.
+* Hãy thực hiện lệnh: 
+```bash 
+pip install git+https://github.com/kayak/pypika.git
+``` 
+* Cách này sẽ cài đặt pypika trực tiếp từ mã nguồn trên GitHub, không thông qua file .whl.
+* Sau đó, việc cài đặt sẽ trở lại bình thường.
+```bash
+pip install -r requirements.txt
+```
+
+
 ### Bước 3: Chạy ứng dụng
 
 ```bash
